@@ -1,0 +1,689 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Clash Display', sans-serif;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('fonts/ClashDisplay-Bold.otf') format('otf'),
+        url('fonts/ClashDisplay-Regular.otf') format('otf'),
+        url('fonts/ClashDisplay-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-start;
+    /* Align items to the start */
+}
+
+.logo {
+    margin-right: 4%;
+    margin-left: 5%;
+    /* Add some space between the logo and navigation */
+}
+
+.logo img {
+    width: 100.8px;
+    height: 34.41px;
+}
+
+.navigation {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-item {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.home,
+.about,
+.pricing,
+.features {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home {
+    color: #ff5555;
+    font-weight: 700;
+}
+
+.download-button {
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 500px;
+    /* Push the button to the far right */
+}
+
+.star img {
+    width: 50px;
+    height: 50px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.star1 img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.headline {
+    /* width: 108px; */
+    color: black;
+    font-size: 64px;
+    font-family: Clash Display;
+    font-weight: 700;
+    /* text-transform: capitalize; */
+    line-height: 64px;
+    /* word-wrap: break-word; */
+    margin-left: 200px;
+}
+
+.line {
+    width: 638px;
+    font-size: 18px;
+    font-family: clash Display;
+    color: black;
+    opacity: 0.50;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 28PX;
+    word-wrap: break-word;
+    margin-left: 230px;
+    margin-top: 30px;
+
+}
+
+.mobiles {
+    width: 249.25px;
+    height: 504.32px;
+    position: relative;
+    transform: rotate(-15deg);
+    transform-origin: 0 0;
+}
+
+.mobiles img {
+    height: 110%;
+    width: 180%;
+    padding-left: 350px;
+    padding: auto;
+}
+
+.star1 img {
+    /* position: relative; */
+    padding-right: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.starting {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 15%;
+    padding-top: 20px;
+
+
+}
+
+.Start img {
+    /* height: 20PX;
+    width: 50PX; */
+    height: 60px;
+    width: 180px;
+    padding-left: 10px;
+    position: relative;
+    /* position: absolute; */
+}
+
+.watch img {
+    height: 60px;
+    width: 180px;
+    padding-left: 30px;
+    position: absolute;
+
+}
+
+.Achievements {
+    position: absolute;
+}
+
+.Achievements img {
+    height: 400px;
+    width: 550px;
+    /* padding: auto; */
+    /* position: absolute; */
+    display: flex;
+    padding-top: 70px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.right_content {
+    flex: 1;
+    position: relative;
+}
+
+.right_content img {
+    max-width: 80%;
+    height: auto;
+}
+
+.left_content {
+    flex: 1;
+    padding: 20px;
+}
+
+.edge_content {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    height: 60%;
+}
+
+.edge_content img {
+    max-height: 100%;
+    width: auto;
+}
+
+.star2 {
+    position: relative;
+    right: 0;
+    padding-left: 92%;
+    top: 50%;
+    /* Adjust this value as needed to position the div vertically */
+    transform: translateY(-50%);
+    /* Center the element vertically */
+}
+
+.star2 img {
+    height: 50px;
+    padding-right: 30px;
+}
+
+.star3 {
+    position: relative;
+    right: 0;
+    padding-left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.star3 img {
+    height: 50px;
+
+    padding-right: 30px;
+}
+
+.star4 {
+    position: relative;
+    right: 0;
+    padding-left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.star4 img {
+    height: 30px;
+
+    padding-right: 30px;
+}
+
+.star5 {
+    position: relative;
+    right: 0;
+    padding-left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.star5 img {
+    height: 30px;
+
+    padding-right: 30px;
+}
+
+.star6 {
+    position: relative;
+    right: 0;
+    padding-left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.star6 img {
+    height: 30px;
+
+    padding-right: 30px;
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+
+.left_content h4 {
+    color: #ff5555;
+    width: 10.51px;
+    height: 12.42px;
+    position: absolute;
+}
+
+.left_content h1 {
+    /* width: 45.41px; */
+    height: 24.67px;
+    /* top: 7.49px; */
+    /* position: absolute; */
+    color: black;
+    padding-top: 25px;
+
+}
+
+.left_content img {
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.left_content1 {
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.sideline {
+    display: flex;
+    align-items: center;
+}
+
+.sideline1 {
+    display: flex;
+    align-items: center;
+}
+
+.sideline1 img {
+    height: 30px;
+    width: 25px;
+    padding-right: 5px;
+}
+
+.content_1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    /* justify-content: space-between; */
+    ;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+.content_1>div {
+    flex: 1;
+    margin: 0;
+}
+
+.right_content1 img {
+    height: 90vh;
+    width: 95vh;
+    padding-top: 10%;
+    padding-right: 80px;
+
+}
+
+.left_content1 h4 {
+    color: #ff5555;
+}
+
+.content_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+
+}
+
+
+.content_2>div {
+    flex: 1;
+    margin: 0;
+}
+
+.right_content2 {
+    padding-top: 15%;
+}
+
+.left_content2 {
+    /* padding-top: 0; */
+    display: flex;
+    /* top: 0; */
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* @media (min-width: 600px) {
+    .left_content2 {
+        width: 50%;
+        margin: auto;
+    } */
+
+.left_content2 img {
+
+
+    height: 90vh;
+    width: 95vh;
+    margin-top: 0;
+    /* padding-top: 10%; */
+    /* padding-right: 80px; */
+    /* width: 45%;  height: 100%;
+  */
+    position: relative;
+    /* top: 110%; */
+}
+
+.sideline2 img {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+
+}
+
+.sideline2 {
+    display: flex;
+    align-items: center;
+}
+
+.content_3 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content_3 h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.content_3 h2 {
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.content_4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+}
+
+.content_4>div {
+    flex: 1;
+    margin: 0;
+}
+
+
+.right_content4 img {
+    height: 90vh;
+    width: 95vh;
+}
+
+.left_content4 {
+    padding-top: 8%;
+}
+
+.sideline4 {
+    align-items: center;
+    justify-content: center;
+}
+
+#line4 {
+    height: 60px;
+    width: 60px;
+}
+
+.sideline4 img {
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.left_content4 h3 {
+    color: black;
+    font-size: 30px;
+}
+
+.faq-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.faq-container {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+
+.faq-text {
+
+    color: red;
+    font-size: 18;
+    font-family: 'Clash Display';
+    font-weight: 500;
+    text-transform: uppercase;
+
+    letter-spacing: 2.88;
+    word-wrap: break-word;
+
+}
+
+.faq-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 900;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item.red {
+    background-color: #ff5e5e;
+    color: white;
+}
+
+.faq-item h2 {
+    margin-top: 0;
+}
+
+#down-image {
+    height: 30%;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+
+.logo_ul ul {
+    margin-top: 35px;
+}
+
+
+footer {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    text-align: left;
+}
+
+.footer-section:first-child ul li a {
+    margin-left: 10px;
+}
+
+.footer-section:first-child {
+    margin-top: 35px;
+}
+
+.footer-section h4 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    display: flex;
+
+    align-items: center;
+}
+
+.footer-section ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+
+
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.subscribe-input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    width: 200px;
+}
+
+.subscribe-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.subscribe-button:hover {
+    background-color: #333;
+}
+
+
+.footer-hr {
+    width: 60%;
+    margin: 10px auto;
+
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2b2626, transparent);
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-section h4,
+.footer-section ul li a,
+.footer-text {
+    font-family: 'Clash Display', sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
